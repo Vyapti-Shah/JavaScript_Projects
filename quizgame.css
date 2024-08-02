@@ -1,0 +1,66 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(24, 24, 24);
+}
+#container{
+    background-color: whitesmoke;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 100px auto 100px; /* top=100 left-right=auto bottom=0 */ 
+    width: 30%;
+    max-width: 600px;
+    padding: 10px;
+}
+#container h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(34, 34, 34, 0.94);
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+#quiz{
+    padding-top: 1px;
+    padding-left: 10px;
+}
+#quiz h2{
+    font-size: 18px;
+    color: rgba(34, 34, 34, 0.94);
+    font-weight: bold;
+}
+.ansBtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    width: 97%;
+    border: 2px solid rgb(34, 34, 34);
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.ansBtn:hover:not([disabled]){ /* hover wffect will work only when the button is not disabled */
+    background-color: rgba(29, 29, 29, 0.8);
+    color: whitesmoke;
+}
+.ansBtn:disabled{
+    cursor: no-drop;
+}
+#nextBtn{
+    background-color: rgb(33, 33, 33);
+    color: whitesmoke;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 0;
+    width: 100px;
+    margin: 9px auto 0;
+    cursor: pointer;
+    display: none;
+}
+.correctBtn{
+    background-color: rgb(129, 197, 129);
+}
+.incorrectBtn{
+    background-color: rgb(198, 97, 97);
+}
