@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#colourContainer{
+    border: 2px solid rgb(51, 51, 51);
+    width: 50em;
+    height: 10em;
+}
+.colours{
+    display: table-cell;
+    width: 10em;
+    height: 9.8em;
+    margin: 0 1px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+#colour1{
+    background-color: rgb(141, 141, 219);
+}
+#colour2{
+    background-color: rgb(247, 189, 199);
+}
+#colour3{
+    background-color: rgb(138, 205, 139);
+}
+#colour4{
+    background-color: rgb(233, 206, 157);
+}
+#colour5{
+    background-color: rgb(157, 133, 90);
+}
+#colour6{
+    background-color: black;
+}
+#colour7{
+    background-color: white;
+    text-align: center;
+    font-family: "poppins";
+}

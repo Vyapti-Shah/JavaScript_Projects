@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Vyapti</title>
+      <link rel="stylesheet" href="tempconvert.css">
+      <!--rel means the relation between the linked file and html document-->  
+   </head>
+   <body>
+    <form>
+        <h1>Temperature Conversion:</h1>
+        <input type="number" id="textbox" value="0"> <!--value=0 means initial value is 0-->
+        
+        <br>
+        <br>
+        <input type="radio" id="toFahrenheit" name="unit">
+        <label for="toFahrenheit">Celsius → Fahrenheit</label> <!-- to use emoji(→) press windows+; on keyboard -->
+        <br>
+        <input type="radio" id="toCelsius" name="unit">
+        <label for="toCelsius">Fahrenheit → Celsius</label>
+        <br>
+
+        <button type="button" onclick="convert()">submit</button> <!--onclick executes the javaScript function when we click on the button-->
+        <br>
+        <p id="result">Select a unit</p>
+    </form>
+    <script src="tempconvert.js"></script>
+   </body>
+</html>

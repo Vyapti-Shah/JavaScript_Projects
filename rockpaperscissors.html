@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Vyapti</title>
+      <link rel="stylesheet" href="rockpaperscissors.css">
+      <!--rel means the relation between the linked file and html document-->  
+   </head>
+   <body>
+    <h1>Rock - Paper - Scissors</h1>
+
+    <div class="choices">
+    <button onclick="playGame('rock')">✊🏻</button>
+    <button onclick="playGame('paper')">🖐🏻</button>
+    <button onclick="playGame('scissors')">✌🏻</button>
+    </div>
+
+    <div id="playerDisplay">Player : </div>
+    <div id="compDisplay">Computer : </div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">Player Score:
+        <span id="playerScoreDisplay">0</span>  <!--here we used span to give the score number a different css property-->
+    </div>
+
+    <div class="scoreDisplay">Computer Score:
+        <span id="compScoreDisplay">0</span>  <!--here we used span to give the score number a different css property-->
+    </div>
+
+    <script src="rockpaperscissors.js"></script>
+   </body>
+</html>

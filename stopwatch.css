@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 90%);
+}
+#myH1{
+    font-size: 4rem;
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 25%);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px, solid;
+    border-radius: 50px;
+    background-color: white;
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.75); /*vertical horizontal blur*/
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transform: background-color 0.5s ease; /* when cursor goes on button the colour will change slowly*/
+}
+#startBtn{
+    background-color: hsl(120, 62%, 71%);
+}
+#startBtn:hover{
+    background: hsl(120, 46%, 25%);
+}
+#resetBtn{
+    background-color: hsl(355, 70%, 58%);
+}
+#resetBtn:hover{
+    background: hsl(358, 52%, 35%);
+}
+#stopBtn{
+    background-color: rgb(131, 205, 222);
+}
+#stopBtn:hover{
+    background-color: hsl(244, 60%, 44%);
+}
